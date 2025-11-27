@@ -1,79 +1,33 @@
-# Cycle-1-----1-Simulation-of-star-topology-network
-# 🖧 Network Simulation using Cisco Packet Tracer
+# DATE
+# EXPT. NO. 1 SIMULATION OF STAR TOPOLOGY NETWORK
 
-## 🎯 AIM
-To simulate a network with topology using Cisco Packet Tracer and verify connectivity between computers using ICMP.
+# AIM 
+ To simulate a network with Topology, using Cisco Packet Tracer and to verify the connectivity between computer using ICMP.
+# EQUIPMENTS REQUIRED
 
-## 🛠️ EQUIPMENTS REQUIRED
-- Desktop Computer  
-- Cisco Packet Tracer 5.0 Software
+Desktop computer
+Cisco Packet Tracer 5.0 Software.
+# IP ASSIGNMENT:
+<img width="997" height="204" alt="image" src="https://github.com/user-attachments/assets/1b169a8a-7a4b-4d46-8045-8444db167d91" />
+# NETWORK DIAGRAM:
+<img width="1158" height="666" alt="image" src="https://github.com/user-attachments/assets/5fa52b72-11b7-485e-be70-88219dfab43b" />
 
-## 📍 IP ASSIGNMENT
+# PROCEDURE
+STEP 1: Open a Packet Tracer Software.
+STEP 2: Drag a 2950 Switch from tool bar and drop it in work area. 
+STEP 3: Drag a PC Terminal from tool bar and drop it in work area. 
+STEP 4: Repeat the Step:3 for four terminals.
+STEP 5: Select Copper straight-through cable from tool bar and connect each PC Terminal with 2950 switch in different ports.
+STEP 6: Click on the PC Terminal, Select the fast Ethernet Interface from configuration table and set IP address and Subnet mask.
+STEP 7: Repeat the Step:6 for all the PC Terminals.
+STEP 8: click on the PC Terminal and Select Terminal from the Desktop tab to verify the connectivity between the PC Terminals using Ping Command.
+STEP 9: Select “add simple PDU” from tool bar and place it in source and destination PC Terminals to verify the connectivity
 
-| NAME | IP ADDRESS     | SUBNET MASK     | NETWORK     | CLASS   |
-|------|----------------|-----------------|-------------|---------|
-| PC0  | 192.168.1.10   | 255.255.255.0   | 192.168.1.1 | Class C |
-| PC1  | 192.168.1.30   | 255.255.255.0   | 192.168.1.1 | Class C |
-| PC2  | 192.168.1.20   | 255.255.255.0   | 192.168.1.1 | Class C |
-| PC3  | 192.168.2.20   | 255.255.255.0   | 192.168.1.2 | Class C |
-| PC4  | 192.168.2.30   | 255.255.255.0   | 192.168.1.2 | Class C |
-| PC5  | 192.168.2.10   | 255.255.255.0   | 192.168.1.2 | Class C |
-
-## ⚙️ PROCEDURE
-
-1. Open Cisco Packet Tracer software.  
-2. Drag a 2950 Switch from the toolbar and drop it into the workspace.  
-3. Drag a PC terminal from the toolbar and drop it into the workspace.  
-4. Repeat Step 3 to add four more terminals.  
-5. Select Copper Straight-Through cable and connect each PC to the 2950 switch using different ports.  
-6. Click on each PC, select the Fast Ethernet interface, and assign the IP address and subnet mask.  
-7. Repeat Step 6 for all PC terminals.  
-8. Open the Terminal tab from the Desktop section of each PC and verify connectivity using the `ping` command.  
-9. Use “Add Simple PDU” from the toolbar to test connectivity between source and destination PCs.
-
-## 📊 IP CONNECTIVITY TABLE
-
-| SENDER/RECEIVER | PC0 | PC1 | PC2 | PC3 | PC4 | PC5 |
-|------------------|-----|-----|-----|-----|-----|-----|
-| PC0              |     |     |     |     |     |     |
-| PC1              |     |     |     |     |     |     |
-| PC2              |     |     |     |     |     |     |
-| PC3              |     |     |     |     |     |     |
-| PC4              |     |     |     |     |     |     |
-| PC5              |     |     |     |     |     |     |
-
-## 🗺️ NETWORK DIAGRAM
----
-<img width="1024" height="326" alt="image" src="https://github.com/user-attachments/assets/b1678fb3-30c2-4351-9b61-ee7b524be458" />
+# OUTPUT
+<img width="1001" height="681" alt="image" src="https://github.com/user-attachments/assets/d118e740-4db9-43bb-b97e-0cc507eb0d41" />
 
 
-## 🧾 BASIC NETWORKING COMMANDS
+# RESULT
 
-## IP Configuration
-## IP Configuration Details: 
-## (i)	ipconfig Command(windows OS) (or) ifconfig command(Linux OS) Syntax: C:\> ipconfig 
-## (ii)	ipconfig/all Command:
-## Syntax:
-C:\> ipconfig /all 
-## Testing Connectivity: 
-## (i)	Self Ping Command:
-## Syntax:
-## c:\> ping <ipaddress> Example:
-## C:\> ping 172.17.80.201
-## C:\> ping 127.0.0.1 (ii) Ping to Destination Syntax:
-## c:\> ping <destination-ipaddress> Example:
-## C:\ping 172.17.80.1
-## To Display IP to Physical address Translation Table and trace the route
-## i) Arp Command Syntax:
- 
-## C:\arp –a
-## (ii)	To trace the route Syntax:
-## C:\tracert <ipaddress (or) specific address> Example: C:\tracert 172.17.80.1
-## C:\tracert www.saveetha.ac.in
+Thus the computers in same network are able to communicate with each other and the communication between them were verified.
 
-## OUTPUT
----
-<img width="1088" height="796" alt="image" src="https://github.com/user-attachments/assets/39cc071d-feae-4f5e-b8a6-f2b7a155daf0" />
-
-## RESULT
-Thus the computers in same network are able to communicate with each other and the communication between them were verified
